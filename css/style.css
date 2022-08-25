@@ -2,4 +2,77 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Segoe UI",Arial,sans-serif;
 }
+/* start about */
+.about-container {
+    padding: 2rem;
+}
+.about .about-header {
+    font-weight: normal;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.about>p {
+    font-size: 1.25rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 3rem;
+}
+.about .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.about .cards-container .card {
+    width: 25%;
+}
+
+.about .cards-container .card .img  img {
+    width: 100%;
+}
+.about .cards-container .card-body h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.about .cards-container .card-body span {
+    font-size: 1rem;
+    color: #bdbdbd;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+.about .cards-container .card-body p {
+    font-size: 1.25rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.about .cards-container .card-body button {
+    border: none;
+    display: block;
+    width: 100%;
+    padding: .8rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.about .cards-container .card-body button:hover {
+    background-color: #949393;
+}
+@media (max-width:1000px) {
+    .about .cards-container {
+        flex-wrap: wrap;
+    }
+    .about .cards-container .card {
+        width: 48%;
+    }
+}
+@media (max-width:600px) {
+   
+    .about .cards-container .card {
+        width: 100%;
+    }
+}
+/* end about */
