@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+<<<<<<< Updated upstream
 #nav{
     position: sticky;
     background-color: white;
@@ -34,3 +35,36 @@
 #nav a:hover{
   background-color: lightgray;
 }
+=======
+
+article {
+    display: flex;
+
+}
+
+article .imgs {
+    width: 25%;
+    margin: 10px;
+    position: relative;
+}
+
+article .imgs img {
+    width: 100%;
+
+
+}
+
+article .imgs p {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+h1 {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+>>>>>>> Stashed changes
